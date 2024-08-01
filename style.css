@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Noto Sans CJK JP','noto-sans-cjk-jp', 'Noto Sans JP', sans-serif;
+  word-break: break-all;
+  -webkit-text-size-adjust: 100%;
+  color: #24292e;
+}
+
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  transition: .3s;
+  color: #24292e;
+}
+li a:hover {
+  opacity: 0.7; 
+  transition: .3s;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
+.midashi {
+  width: 140px;
+  margin: 32px auto;
+  font-size: 30px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+header nav ul li {
+  margin: 0 20px 50px 20px;
+  
+}
+
+.insta {
+  width: 20px;
+}
+
+.habout {
+  width: 80px;
+  margin: 50px auto;
+  font-size: 24px;
+}
+
+#sec_about{
+  height: 500px;
+}
+
+#sec_about p {
+  line-height: 2em;
+  padding: 16px 0 16px 40px;
+  width: 840px;
+}
+
+#sec_about ul {
+  padding-top: 60px;
+}
+
+#sec_about li {
+  padding: 6px;
+}
+
+.hworks {
+  width: 80px;
+  margin: 50px auto;
+  font-size: 24px;
+}
+
+#sec_works ul li {
+  width: 31%;
+  margin-bottom: 23px;
+}
+
+#sec_works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.hnews {
+  width: 80px;
+  margin: 50px auto;
+  font-size: 24px;
+}
+
+#sec_news dl {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #C8C8C8;
+  margin-bottom: 20px;
+}
+
+#sec_news dt {
+  width: 20%;
+  border-bottom: solid 1px #C8C8C8;
+  padding: 15px 0;
+}
+
+#sec_news dd {
+  width: 70%;
+  border-bottom: solid 1px #C8C8C8;
+  padding: 15px 0 15px 10px;
+}
+
+.hcontact {
+  width: 100px;
+  margin: 50px auto;
+  font-size: 24px;
+}
+
+#sec_contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#sec_contact dt {
+  width: 15%;
+}
+
+#sec_contact dd {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+#sec_contact dd input,
+#sec_contact dd textarea {
+  width: 100%;
+  border: solid 1px #C8C8C8;
+  padding: 10px;
+}
+#sec_contact textarea {
+  height: 10rem;
+}
+
+#sec_contact .button {
+  text-align: center;
+}
+#sec_contact .button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+#sec_contact .button input:hover {
+  background-color: #fff;
+  color: #24292e;
+}
+
+footer {
+  background-color: #24292e;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
